@@ -1,0 +1,280 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+
+header {
+  height: 60vh;
+  background-color: #4617fe;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  color: #ffffff;
+}
+
+.nav-item,
+.nav-item-active {
+  margin: 15px 0 0 15px;
+  padding-top: 5px;
+  font-size: 14px;
+}
+.nav-item-active {
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  color: #4617fe;
+  padding: 5px 15px;
+  font-weight: 600;
+}
+
+.nav-item-active + .nav-item {
+  margin-right: 25px;
+  max-width: 2rem;
+}
+
+.logo {
+  margin-left: 30px;
+  margin-top: -20px;
+}
+
+.header-image {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+}
+
+.header-text {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.header-text p {
+  font-size: 1rem;
+  margin-top: 20px;
+}
+
+.companies {
+  display: flex;
+  margin-top: 20px;
+}
+
+.company-items {
+  margin-left: 50px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  font-family: "Righteous";
+}
+
+.api,
+.blog-heading,
+.blog-card {
+  margin-left: 3.5%;
+  margin-top: 90px;
+}
+
+.right-arrow {
+  position: absolute;
+
+  top: 47rem;
+  right: 10rem;
+  width: 5%;
+  height: 10vh;
+  background: #4617fe;
+  color: #ffffff;
+  border-radius: 50%;
+}
+.fa-angle-right {
+  font-size: 60px;
+  margin-top: 10px;
+  margin-left: 18px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-active,
+.card {
+  width: 180px;
+  padding: 20px;
+  height: 160px;
+  border-radius: 15px;
+  margin: 40px 15px;
+}
+
+.card-head-active {
+  color: #4617fe;
+}
+.card-active {
+  box-shadow: 5px 5px 50px #cabfbf;
+}
+
+.card-body {
+  font-size: 12px;
+}
+
+.blog-cards {
+  margin-top: -5rem;
+  display: flex;
+}
+
+.blog-card {
+  width: 40%;
+  display: flex;
+  position: relative;
+}
+
+.blog-content {
+  padding: 1rem;
+  width: 17rem;
+}
+
+h6 {
+  color: #4617fe;
+  margin-bottom: 13px;
+}
+
+h3 {
+  font-weight: 900;
+  margin-bottom: 13px;
+}
+
+.blog-bottom {
+  position: absolute;
+  left: 17rem;
+  top: 17rem;
+  border-radius: 50px;
+}
+
+.blog-author {
+  position: absolute;
+  width: 150px;
+  left: 10.5rem;
+  top: 8.5rem;
+}
+
+.faq-section {
+  background-color: #d7edf3;
+  margin-top: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-content {
+  margin-left: 3rem;
+}
+.faq-section .faq-content h2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.faq-section .faq-content h2 + h4 {
+  margin-top: 2rem;
+  font-size: 16px;
+}
+
+.faq-section .faq-content h4 {
+  margin-top: 8%;
+  font-weight: 900;
+}
+
+.faq-content > button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  background-color: #4617fe;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.download-section {
+  display: flex;
+  align-items: center;
+  height: 45vh;
+  position: relative;
+}
+
+.download-content h1 {
+  margin-left: 2rem;
+}
+
+.download-section .download-email {
+  margin-left: 41rem;
+}
+
+.download-email input {
+  width: 22.5rem;
+  height: 1em;
+  border-radius: 30px;
+  padding: 15px;
+  border: none;
+  background-color: #cee4f1;
+}
+
+.download-section .download-email button {
+  position: absolute;
+  top: 9.5rem;
+  left: 75rem;
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #4617fe;
+  color: #fff;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #4617fe;
+  color: #fff;
+}
+
+.footer-left .list {
+  display: flex;
+}
+
+.footer-left .list-items {
+  margin-right: 30px;
+  list-style-type: none;
+}
+
+.footer-section .footer-right ,.list-items::after {
+  content: "|";
+  margin: 0px 10px;
+}
+
+.footer-right img{
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.footer-left img{
+  width: 20%;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.logos-list{
+  display: flex;
+  list-style-type: none;
+}
+
