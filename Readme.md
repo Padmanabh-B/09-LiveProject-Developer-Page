@@ -31,3 +31,4 @@ and this is responsive for mobile screens and laptop screens
 
 
 ## Deployed Link
+[Developer Page](https://developer-ui-page.netlify.app/)
